@@ -1,0 +1,543 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700');
+
+
+body{margin: 0;}
+
+.container{max-width: 1400px;margin: auto;padding: 0 15px;}
+.clr{clear: both;}
+
+nav .col{width: 50%;float: left;padding-top: 40px;}
+nav ul{margin: 0;padding-top: 25px;text-align: right;}
+nav ul li{list-style: none;display: inline-block;padding-left: 20px;}
+nav ul li a{text-decoration: none;color:#4B4A4A;font-family: Nunito;font-size: 15px;font-weight: 500;display: block;}
+nav ul li a:hover{color: #05b1a0;} 
+.hvr-pop {
+  display: block;}
+
+@media only screen and (max-width:1253px) {
+  nav ul{padding-left: 0;}
+}
+
+@media only screen and (max-width:1181px){
+  nav .container{padding: 0;}
+  nav .col img{padding: 0 15px;}
+  nav .col{width: 100%;float: none;}
+  nav ul{padding: 0;}
+  nav ul li{display: block;text-align: left;padding: 5px;background: #b1f45c;margin-bottom: 5px;}
+  
+  
+}
+
+
+.banner{padding: 50px 0 9% 0;}
+.banner .col_l{width: 60%;float: left;padding-top: 30px;padding-right: 20px;box-sizing: border-box}
+.banner .col_m{width: 40%;float: left;padding-top: 30px;}
+.banner .col_l h1{font-family: Nunito;font-size: 73px;text-align: left;color: #4B4A4A;margin-bottom: 30px;line-height: 75px;margin-top: 15px;}
+.banner .col_l p{font-family: 'Segoe UI';font-size: 20px;line-height: 36px;color: #4B4A4A;text-align: left;margin-bottom: 30px;}
+.banner .col_l a{text-decoration: none;display: inline-block;}
+.btn{padding: 10px 20px;background: #363A47;color: white;font-family: Nunito;font-size: 15px;font-weight: 700;height: 30px;width: 134px;border-radius: 15px;text-align: center;line-height: 30px;}
+.hvr-sweep-to-right::before {background: linear-gradient(90deg, rgba(205,248,89,1) 6%, rgba(10,247,176,1) 94%);border-radius: 15px;}
+.banner .col_m .image{position: relative;text-align: right;max-width: 100%;}
+.banner .col_m .image img{max-width: 100%;}
+.banner .col_m .image span img{position: absolute;top: 6%;right: 0%;max-width: 100%;}
+
+@media only screen and (max-width:1141px) {
+  
+  .banner .col_l h1{font-size: 63px;}
+
+}
+
+
+
+@media only screen and (max-width:968px) {
+  
+  .banner .col_l h1{font-size: 55px;line-height: 61px;}
+ .banner .col_l p{font-size: 15px;line-height: 25px;}
+}
+@media only screen and (max-width:850px) {
+  
+  .banner .col_l h1{font-size: 50px;line-height: 61px;}
+  .btn{padding: 10px 20px;background: #363A47;color: white;font-family: Nunito;font-size: 15px;font-weight: 700;height: 26px;width: 114px;border-radius: 15px;text-align: center;line-height: 26px;}
+}
+@media only screen and (max-width:775px) {
+  
+  .banner .col_l h1{font-size: 47px;line-height: 61px;}
+ 
+}
+@media only screen and (max-width:731px) {
+  
+  .banner .col_l h1{font-size: 41px;line-height: 49px;}
+  .btn{padding: 10px 20px;background: #363A47;color: white;font-family: Nunito;font-size: 13px;font-weight: 700;height: 17px;width: 100px;border-radius: 10px;text-align: center;line-height: 17px;}
+}
+
+@media only screen and (max-width:647px) {
+  
+  .banner .col_l h1{font-size: 36px;line-height: 50px;}
+
+}
+@media only screen and (max-width:575px) {
+  
+  .banner .col_l h1{font-size: 30px;line-height: 40px;}
+
+}
+@media only screen and (max-width:489px) {
+  
+  .banner .col_l h1{font-size: 24px;line-height: 34px;}
+  .banner .col_l p{font-size: 11px;line-height: 17px;}
+  .btn{padding: 10px 20px;background: #363A47;color: white;font-family: Nunito;font-size: 11px;font-weight: 700;height: 11px;width: 84px;border-radius: 5px;text-align: center;line-height: 11px;}
+}
+
+
+@media only screen and (max-width:405px) {
+  
+  .banner .col_l h1{font-size: 20px;line-height: 27px;margin-bottom: 20px;}
+  .banner .col_l p{font-size: 11px;line-height: 17px;}
+
+}
+
+@media only screen and (max-width:347px) {
+  
+  .banner .col_l h1{font-size: 18px;line-height: 25px;margin-bottom: 20px;}
+}
+
+
+.sec1{padding: 50px 0;background: #F9F9F9;}
+.sec1 .col{width: 50%;float: left;padding-top: 70px;}
+.sec1 .col img{max-width: 100%;}
+.sec1 .container h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec1 .container p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec1 .col .subcol_l{width: 40%;float: left;padding-left: 20%;box-sizing: border-box;}
+.sec1 .col .subcol_l img{max-width: 100%;}
+.sec1 .col .subcol_r{width: 60%;float: left;padding-left: 20px;box-sizing: border-box;}
+.sec1 .col .subcol_r h2{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: left;margin: 0;color: #4B4A4A;}
+.sec1 .col .subcol_r p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: left;margin-bottom: 47px;line-height: 25px;margin-top: 10px;}
+
+@media  only screen and (max-width:1021px) {
+  .sec1 .col{width: 100%;float: none;padding-top: 40px;text-align: center;}
+}
+
+@media  only screen and (max-width:547px) {
+  .sec1 .container h2{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec1 .container p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec1 .col .subcol_r h2{font-size: 20px;font-family: Nunito;font-weight: 700;text-align: left;margin: 0;color: #4B4A4A;}
+.sec1 .col .subcol_r p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: left;margin-bottom: 47px;line-height: 25px;margin-top: 10px;}
+
+}
+
+@media  only screen and (max-width:479px) {
+  .sec1 .container h2{font-size: 30px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec1 .container p{font-family: 'Segoe UI';font-size: 10px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec1 .col .subcol_r h2{font-size: 20px;font-family: Nunito;font-weight: 700;text-align: left;margin: 0;color: #4B4A4A;}
+.sec1 .col .subcol_r p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: left;margin-bottom: 47px;line-height: 25px;margin-top: 10px;}
+}
+
+@media  only screen and (max-width:395px) {
+  .sec1 .container h2{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec1 .container p{font-family: 'Segoe UI';font-size: 8px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec1 .col .subcol_r h2{font-size: 15px;font-family: Nunito;font-weight: 700;text-align: left;margin: 0;color: #4B4A4A;}
+.sec1 .col .subcol_r p{font-family: 'Segoe UI';font-size: 10px;color: #4B4A4A;text-align: left;margin-bottom: 47px;line-height: 17px;margin-top: 10px;}
+}
+
+
+
+
+.sec2{background: linear-gradient(90deg, rgba(205,248,89,1) 6%, rgba(10,247,176,1) 94%);padding: 10px 0 0 0;}
+.sec2 .col{width: 25%;float: left;padding: 0 10px;box-sizing: border-box;}
+.sec2 .col .info{background: white;border-radius: 20px 20px 0 0;margin: auto;}
+.sec2 .col h4{font-size: 40px;font-family: Nunito;font-weight: bold;text-align: center;color: #4B4A4A;margin-bottom: 0;}
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+.sec2 .col .info h3{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;font-weight: normal;line-height: 88px;margin: 0;}
+
+@media only screen and (max-width:1000px) {
+  .sec2 .col h4{font-size: 30px;font-family: Nunito;font-weight: bold;text-align: center;color: #4B4A4A;margin-bottom: 0;}
+  .sec2 .col .info h3{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;font-weight: normal;line-height: 60px;margin: 0;}
+}
+
+@media only screen and (max-width:750px) {
+  .sec2 .col h4{font-size: 25px;font-family: Nunito;font-weight: bold;text-align: center;color: #4B4A4A;margin-bottom: 0;}
+  .sec2 .col .info h3{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: center;font-weight: normal;line-height: 45px;margin: 0;}
+  .sec2 .col .info{background: white;border-radius: 15px 15px 0 0;margin: auto;}
+}
+
+@media only screen and (max-width:690px) {
+  .sec2 .col h4{font-size: 20px;font-family: Nunito;font-weight: bold;text-align: center;color: #4B4A4A;margin-bottom: 0;}
+  .sec2 .col .info h3{font-family: 'Segoe UI';font-size: 11px;color: #4B4A4A;text-align: center;font-weight: normal;line-height: 35px;margin: 0;}
+  .sec2 .col .info{background: white;border-radius: 10px 10px 0 0;margin: auto;}
+}
+
+@media only screen and (max-width:515px) {
+  .sec2 .col .info h3{font-size: 8px;}
+  .sec2 .col{padding: 0 5px;box-sizing: border-box;}
+}
+
+@media only screen and (max-width:515px) {
+  
+  .sec2 .col{padding: 0 2px;box-sizing: border-box;}
+}
+
+.sec3{padding: 50px 0;background: #F9F9F9;text-align: center;}
+.sec3 .container h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec3 .container p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec3 .container h4{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: center;color: #4B4A4A;margin-top: 80px;}
+.sec3 .container .col{width: 33.33%;float: left;}
+.sec3 .container .col img{text-align: center;}
+[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+    background-color: #4f4f4f50;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;}
+figure figcaption h3{font-family: Nunito;font-weight: 700;color: white;text-align: center;font-size: 25px;line-height: 315px;}
+.sec3 .container .col .row{margin-bottom: 33px;}
+.sec3 .container a{text-decoration: none;}
+.sec3 .container a.btn{margin-top: 20px;margin-bottom: 60px;}
+
+@media  only screen and (max-width:547px) {
+  .sec3 .container h2{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+  .sec3 .container p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+  .sec3 .container h4 {
+    font-size: 21px;
+    font-family: Nunito;
+    font-weight: 700;
+    text-align: center;
+    color: #4B4A4A;
+    margin-top: 50px;}
+}
+
+@media  only screen and (max-width:479px) {
+  .sec3 .container h2{font-size: 30px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec3 .container p{font-family: 'Segoe UI';font-size: 10px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec3 .container h4 {
+  font-size: 17px;
+  font-family: Nunito;
+  font-weight: 700;
+  text-align: center;
+  color: #4B4A4A;
+  margin-top: 34px;}
+
+  .sec3 .container a.btn {
+   margin: 0;}
+}
+
+@media  only screen and (max-width:395px) {
+  .sec3 .container h2{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec3 .container p{font-family: 'Segoe UI';font-size: 8px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec3 .container h4 {
+  font-size: 12px;}
+}
+
+
+.sec4{padding: 50px 0 0 0;}
+.sec4 .container h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec4 .container p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec4 .col{width: 50%;float: left;padding-top: 10px;}
+.sec4 .col img{display: block;max-width: 100%;}
+.sec4 .container .col h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: left;margin-bottom: 0;color: #4B4A4A;margin-top: 17%;}
+.sec4 .container .col p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: left;margin-bottom: 30px;line-height: 30px;} 
+.sec4 ul{padding: 0;margin: 0;}
+.sec4 ul li{list-style: none;display: inline-block;padding-right: 20px}
+i{max-width: 100%;}
+.sec4 ul li a i{text-decoration: none;font-size: 50px;color:#706D6D;}
+.sec4 ul li a i:hover{color: rgb(166, 255, 0)}
+
+@media only screen and (max-width:968px) {
+  .sec4 .container .col h2 {font-size: 39px;}
+  .sec4 .container .col p {line-height: 28px;}
+  .sec4 ul li a i {
+    text-decoration: none;
+    font-size: 36px;}
+    
+}
+
+@media only screen and (max-width:749px) {
+  .sec4 .container .col h2 {
+    font-size: 30px;}
+    .sec4 .container .col p {
+      line-height: 24px;}
+      .sec4 ul li a i {
+        text-decoration: none;
+        font-size: 29px;}
+
+}
+
+@media  only screen and (max-width:609px) {
+  .sec4 .container .col h2 {
+    font-size: 25px;}
+  .sec4 .container .col p {font-size: 13px;
+    line-height: 21px;margin-bottom: 19px;}
+    .sec4 ul li a i {
+      text-decoration: none;
+      font-size: 24px;}
+}
+
+@media  only screen and (max-width:547px) {
+  .sec4 .container h2{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+  .sec4 .container p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+  
+}
+
+@media only screen and (max-width:565px) {
+  .sec4 .container .col h2 {
+    font-size: 22px;
+  }
+  .sec4 .container .col p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 19px;}
+    .sec4 ul li a i {
+      text-decoration: none;
+      font-size: 19px;}
+}
+
+@media  only screen and (max-width:479px) {
+  .sec4 .container h2{font-size: 30px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec4 .container p{font-family: 'Segoe UI';font-size: 10px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+
+.sec4 .container .col h2 {
+  font-size: 19px;
+}
+.sec4 .container .col p {
+  font-size: 11px;
+  line-height: 15px;
+  margin-bottom: 19px;}
+  .sec4 ul li a i {
+    text-decoration: none;
+    font-size: 16px;}
+
+}
+@media only screen and (max-width:433px) {
+  .sec4 .container .col p {
+    font-size: 8px;
+    line-height: 11px;}
+}
+@media  only screen and (max-width:395px) {
+  .sec4 .container h2{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec4 .container p{font-family: 'Segoe UI';font-size: 8px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec4 .container .col h2 {
+  font-size: 15px;
+}
+.sec4 ul li a i {
+  text-decoration: none;
+  font-size: 11px;}
+  .sec4 .container .col p {
+    font-size: 8px;
+    line-height: 11px;
+    margin-bottom: 10px;}
+
+}
+
+
+.sec5{padding: 30px 0;background: linear-gradient(90deg, rgba(205,248,89,1) 6%, rgba(10,247,176,1) 94%);padding: 10px 0 0 0;}
+.sec5 ul{padding: 0;margin: 0;text-align: center;}
+.sec5 ul li{list-style: none;display: inline-block;padding: 10px 50px 10px;}
+.sec5 ul li img{max-width: 100%;}
+
+@media only screen and (max-width:1370px) {
+  .sec5 ul li{list-style: none;display: inline-block;padding: 10px 40px 10px;}
+}
+@media only screen and (max-width:1249px) {
+  .sec5 ul li{list-style: none;display: inline-block;padding: 10px 30px 10px;}
+}
+@media only screen and (max-width:1129px) {
+  .sec5 ul li{list-style: none;display: inline-block;padding: 10px 20px 10px;}
+}
+@media only screen and (max-width:1009px) {
+  .sec5 ul li{list-style: none;display: inline-block;padding: 10px 10px 10px;}
+}
+
+.sec6{padding: 50px 0;text-align: center;}
+.sec6 .col{width: 50%;float: left;padding-top: 80px;padding-right: 30px;box-sizing: border-box;}
+.sec6 .container h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec6 .container p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec6 .container .col .subcol_l{width: 20%;float: left;}
+.sec6 .container .col .subcol_r{width: 80%;float: left;background: #F9F9F9;height: 270px;}
+.sec6 .container .col .subcol_r h2{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: left;font-weight: normal;margin-top: 30px;padding-left: 30px;}
+.sec6 .container .col .subcol_r h3{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: left;margin-bottom: 0;color: #4B4A4A;margin-top: 10px;padding-left: 30px;}
+.sec6 .container .col .subcol_r p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: left;margin-top: 10px;padding-left: 30px;line-height: 24px;margin-bottom: 20px;}
+.sec6 .container .col .subcol_r{text-align: left;}
+.sec6 .container .col .subcol_r a{text-decoration: none;}
+.sec6 .container .col .subcol_r a.btn{width: 97px;height: 24px;line-height: 24px;margin-left: 30px;margin-top: 0;}
+.sec6 .container a{text-decoration: none;}
+.sec6 .container a.btn{margin-top: 50px;margin-bottom: 50px;}
+
+@media only screen and (max-width:1021px)  {
+  .sec6 .col{width: 100%;float: none;padding-top: 50px;padding-left: 50px;}
+  .sec6 .container .col .subcol_l{width: 18%;float: left;}
+
+}
+
+@media only screen and (max-width:850px) {
+  
+ 
+  .sec6 .container a.btn{padding: 10px 20px;background: #363A47;color: white;font-family: Nunito;font-size: 15px;font-weight: 700;height: 26px;width: 118px;border-radius: 15px;text-align: center;line-height: 26px;}
+}
+@media only screen and (max-width:730px)  {
+
+  .sec6 .container .col .subcol_l{width: 20%;float: left;}
+  .sec6 .container .col .subcol_r p {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: #4B4A4A;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 30px;
+    line-height: 17px;
+    margin-bottom: 20px;}
+
+  .sec6 .container .col .subcol_r a.btn {
+  width: 79px;
+  height: 16px;
+  line-height: 16px;
+  margin-left: 30px;
+  margin-top: 0;
+border-radius: 10px;} 
+  .sec6 .container .col .subcol_r h3 {
+    font-size: 20px;}
+    .sec6 .container a.btn{padding: 10px 20px;background: #363A47;color: white;font-family: Nunito;font-size: 13px;font-weight: 700;height: 17px;width: 104px;border-radius: 10px;text-align: center;line-height: 17px;}
+
+
+}
+
+@media  only screen and (max-width:547px) {
+  .sec6 .container h2{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+  .sec6 .container p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+  
+}
+@media  only screen and (max-width:479px) {
+  .sec6 .container h2{font-size: 30px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec6 .container p{font-family: 'Segoe UI';font-size: 10px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+}
+
+@media  only screen and (max-width:395px) {
+  .sec6 .container h2{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec6 .container p{font-family: 'Segoe UI';font-size: 8px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec6 .container .col .subcol_r p {
+  font-family: 'Segoe UI';
+  font-size: 11px;
+  color: #4B4A4A;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 30px;
+  line-height: 15px;
+  margin-bottom: 20px;}
+
+  .sec6 .container .col .subcol_r h3 {
+    font-size: 15px;}
+}
+
+
+
+
+
+.sec7{padding: 50px 0;background: #F9F9F9;}
+.sec7 .container h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec7 .container p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec7 .col{width: 33.33%;float: left;padding: 50px 20px;box-sizing: border-box;}
+.sec7 .col .productbox{background: white;border-radius: 15px;}
+.sec7 .col .productbox .productheader h2{font-size: 25px;padding-top: 30px;}
+.sec7 .col .productbox .productimage{text-align: center;padding-top: 30px;}
+.sec7 .col .productbox .productinfo p{font-size: 15px;font-family: Nunito;font-weight: 700;color: #4B4A4A;text-align: center;padding-top: 30px;}
+.sec7 .col .productbox .productprice h3 span{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;}
+.sec7 .col .productbox .productprice{text-align: center;}
+.sec7 .col .productbox .productprice h3{font-size: 15px;font-family: 'segoe UI';font-weight: normal;}
+.sec7 .col .productbox a{text-decoration: none;}
+.sec7 .col .productbox a.btn{width:100%;border-radius: 0 0 15px 15px;height: 50px;line-height: 6px;padding: 30px 20px;box-sizing: border-box;}
+.sec7 .hvr-sweep-to-right::before {background: linear-gradient(90deg, rgba(205,248,89,1) 6%, rgba(10,247,176,1) 94%);border-radius: 0 0 15px 15px;}
+
+@media only screen and (max-width:1021px) {
+  .sec7 .col{width: 100%;float:none;padding: 50px 25%;box-sizing: border-box;}
+}
+@media only screen and (max-width:630px) {
+  .sec7 .col{width: 100%;float:none;padding: 50px 20%;box-sizing: border-box;}
+  .sec7 .col .productbox .productprice h3 span{font-size: 45px;font-family: Nunito;font-weight: 700;text-align: center;}
+}
+
+@media  only screen and (max-width:547px) {
+  .sec7 .col{width: 100%;float:none;padding: 50px 18%;box-sizing: border-box;}
+  .sec7 .container h2{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+  .sec7 .container p{font-family: 'Segoe UI';font-size: 13px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+  .sec7 .col .productbox .productprice h3 span{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;}
+  .sec7 .col .productbox .productheader h2{font-size: 20px;padding-top: 30px;}
+  
+}
+@media  only screen and (max-width:479px) {
+  .sec7 .container h2{font-size: 30px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec7 .container p{font-family: 'Segoe UI';font-size: 10px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+.sec7 .col .productbox .productprice h3 span{font-size: 30px;font-family: Nunito;font-weight: 700;text-align: center;}
+.sec7 .col .productbox .productprice h3{font-size: 13px;}
+.sec7 .col .productbox .productinfo p{font-size: 13px;font-family: Nunito;font-weight: 700;color: #4B4A4A;text-align: center;padding-top: 30px;}
+}
+
+@media  only screen and (max-width:395px) {
+  .sec7 .container h2{font-size: 25px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec7 .container p{font-family: 'Segoe UI';font-size: 8px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+}
+
+.sec8{padding: 50px 0;}
+.sec8 .container h2{font-size: 50px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+.sec8 .container p{font-family: 'Segoe UI';font-size: 15px;color: #4B4A4A;text-align: center;margin-bottom: 30px;}
+
+form{width:72%;color: white;box-shadow: 0 2px 25px 2px #C8C6C6 ; border-radius: 15px;margin: auto;margin-top: 100px;text-align: center;margin-bottom: 60px;}
+input#nm{width: 80%;margin: 50px 0 30px 30px;padding: 0 10px;border: none;border-bottom: 1px solid rgb(231, 231, 231);height: 40px;}
+input#em{width: 80%;margin: 50px 0 30px 30px;padding: 0 10px;border: none;border-bottom: 1px solid rgb(231, 231, 231);height: 40px;}
+input#ms{width: 80%;margin: 50px 0 30px 30px;padding: 0 10px;border: none;border-bottom: 1px solid rgb(231, 231, 231);height: 40px;}
+
+input#sm{background: #363A47;color: white;font-family: Nunito;font-weight: 700;font-size: 15px;height: 40px;width: 150px;border: none;border-radius:15px;margin-bottom: 50px;margin-top: 20px;}
+
+@media only screen and (max-width:996px) {
+  .sec8 .container h2{font-size: 40px;font-family: Nunito;font-weight: 700;text-align: center;margin-bottom: 0;color: #4B4A4A;}
+  input#em{margin-top: 10px;}
+  input#nm{width: 65%;}
+  input#em{width: 65%;}
+  input#ms{width: 65%;}
+}
+@media only screen and (max-width:775px) {
+  .sec8 .container h2{font-size: 30px;}
+  form{margin-top: 50px;}
+ 
+  input#nm{width: 55%;}
+  input#em{width: 55%;}
+  input#ms{width: 55%;}
+  input#sm{width: 145;}
+}
+
+footer{padding: 50px 0;background: #F9F9F9;}
+footer ul {padding:50px 0;margin: 0;text-align: center;}
+footer ul li{list-style: none;display: inline-block;padding-right: 30px;}
+footer .container ul li a i{text-decoration: none;font-size: 50px;color:#706D6D}
+footer .container ul li a i:hover{color: rgb(166, 255, 0)}
+footer .container p{text-align: center;font-size: 15px;font-family: 'Segoe UI';font-weight: normal;color: #706D6D;}
+
+@media only screen and (max-width:996px){
+  footer .container ul li a i{font-size: 40px;}
+}
+@media only screen and (max-width:775px){
+  footer .container ul li a i{font-size: 30px;}
+}
+@media only screen and (max-width:775px){
+  footer .container ul li a i{font-size: 30px;}
+}
+@media only screen and (max-width:395px){
+  footer .container ul li a i{font-size: 20px;}
+}
